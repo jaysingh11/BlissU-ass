@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet, TextInput, Alert, TouchableOpacity, ImageBackground, Image } from 'react-native';
-import { firebase } from './secret';
+import firebase from 'react-native-firebase';
 import Src from './images/wallpaper.png';
 import logoImg from './images/logo.png';
 
